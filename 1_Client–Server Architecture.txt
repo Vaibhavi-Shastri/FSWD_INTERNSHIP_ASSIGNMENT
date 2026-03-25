@@ -1,0 +1,60 @@
+Client–Server Architecture
+
+Client–Server architecture is a distributed computing model in which multiple clients request services or resources from a centralized server through a network such as the Internet. The client initiates communication, and the server responds by providing the requested data or service.
+
+Diagram:
+        Client (Web Browser)
+                |
+                |   Internet
+                |
+            Web Server
+                |
+        Application Server
+                |
+             Database
+
+Explanation:
+
+Client:
+The client is the user’s device (computer, laptop, or mobile) that sends a request to the server. It uses a web browser such as Internet Explorer or Google Chrome to access websites. The client displays the response received from the server.
+
+Server:
+The server is a powerful system that stores website files and handles client requests. Web servers such as Apache HTTP Server or Nginx process the request and send back the required webpage.
+
+Application Server:
+If the website is dynamic, the application server processes business logic and interacts with the database.
+
+Database:
+The database stores website data such as user details, product information, etc. The server retrieves or updates this data when required.
+
+Network:
+The Internet acts as the communication medium between client and server using protocols like HTTP or HTTPS.
+
+What Happens When You Open a Website
+
+When a user opens a website in a browser like Internet Explorer, the following steps occur:
+
+URL Entry:
+The user enters the website address (for example, www.example.com
+) in the browser.
+
+DNS Resolution:
+The browser contacts a DNS server to convert the domain name into an IP address.
+
+TCP Connection Establishment:
+The browser establishes a TCP connection with the server using a three-way handshake (SYN, SYN-ACK, ACK).
+
+Sending HTTP Request:
+The browser sends an HTTP/HTTPS request to the server asking for the webpage.
+
+Server Processing:
+The web server receives the request. If the page is static, it sends the HTML file directly. If it is dynamic, it interacts with the application server and database to generate the content.
+
+Server Response:
+The server sends an HTTP response containing the requested webpage along with a status code (e.g., 200 OK).
+
+Browser Rendering:
+The browser receives the response, processes HTML, CSS, and JavaScript, and displays the webpage on the screen.
+
+Additional Requests:
+The browser may send additional requests for images, stylesheets, and scripts needed to fully load the webpage.

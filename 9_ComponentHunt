@@ -1,0 +1,42 @@
+Assignment Name: Component Hunt
+
+Website Chosen: Amazon
+
+Component Breakdown:-
+
+1. Header Component: Contains the logo, search bar, location selector, account options, and cart for quick access to essential features.
+
+2. Navigation Bar: Provides links to different categories and sections to help users easily navigate the website.
+
+3. Hero Section (Banner): Displays large promotional images or offers to attract user attention.
+
+4. Product Card Component: Represents a single product with details like image, title, price, rating, and action buttons.
+
+5. Product Grid/List: Organizes multiple product cards in a structured layout for easy browsing.
+
+6. Sidebar / Filters: Allows users to refine search results based on categories, price, brand, and other options.
+
+7. Footer Component: Includes important links, contact information, policies, and additional resources.
+
+Structure (Text Representation):-
+
+Header
+├── Logo
+├── Search Bar
+├── Cart
+
+Navigation Bar
+├── Categories
+
+Hero Section
+
+Main Content
+├── Sidebar (Filters)
+├── Product Grid
+├── Product Card
+├── Product Card
+├── Product Card
+
+Footer
+├── Links
+├── Contact Info
